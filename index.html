@@ -41,7 +41,8 @@
           fontFamily: {
             title: ["'Playfair Display', serif"],
             subtitle: ["'Gowun Batang', sans-serif"],
-            content: ["'Noto Sans KR', sans-serif"],
+            content: ["'Gowun Batang', sans-serif"],
+            footer: ["'Noto Sans KR', sans-serif"],
           },
           keyframes: {
             gradient: {
@@ -70,7 +71,7 @@
           },
           colors: {
             primary: "#FFB22C",
-            secondary: "#854836",
+            secondary: "#3B290A",
             main: "#F5E7C6",
             muted:  "#f5e095",
             accent: "#FDE68A",
@@ -139,59 +140,63 @@
         권위있는 심사위원 감자가 선정한 <br/>최고의 미디어 시상식
       </p>
 
-<div class="w-full py-5">
-  <div class="max-w-4xl mx-auto flex items-center justify-center divide-x divide-content-300/30 divide-main">
+      <div class="w-full py-5">
+        <div class="max-w-4xl mx-auto flex items-center justify-center divide-x divide-content-300/30 divide-main">
 
-    <!-- Awards -->
-    <div class="px-10 text-center">
-      <div class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary via-accent to-secondary 
-              bg-clip-text text-transparent">
-        50+
-      </div>
-      <div class="mt-2 text-sm uppercase tracking-widest text-main">
-        Media
-      </div>
-    </div>
+          <!-- Awards -->
+          <div class="px-6 md:px-10 text-center">
+            <div class="text-3xl md:text-5xl font-bold bg-gradient-to-r from-primary via-accent to-secondary 
+                    bg-clip-text text-transparent">
+              50+
+            </div>
+            <div class="mt-2 text-xs md:text-sm uppercase tracking-widest text-main">
+              Media
+            </div>
+          </div>
 
-    <!-- Season -->
-    <div class="px-10 text-center">
-      <div class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary via-accent to-secondary 
-              bg-clip-text text-transparent">
-        2022
-      </div>
-      <div class="mt-2 text-sm uppercase tracking-widest text-main">
-        Since
-      </div>
-    </div>
+          <!-- Season -->
+          <div class="px-6 md:px-10 text-center">
+            <div class="text-3xl md:text-5xl font-bold bg-gradient-to-r from-primary via-accent to-primary 
+                    bg-clip-text text-transparent">
+              2022
+            </div>
+            <div class="mt-2 text-xs md:text-sm uppercase tracking-widest text-main">
+              Since
+            </div>
+          </div>
 
-    <!-- Categories -->
-    <div class="px-10 text-center">
-      <div class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary via-accent to-secondary 
-              bg-clip-text text-transparent">
-        2+
+          <!-- Categories -->
+          <div class="px-6 md:px-10 text-center">
+            <div class="text-3xl md:text-5xl font-bold bg-gradient-to-r from-primary via-accent to-secondary 
+                    bg-clip-text text-transparent">
+              2+
+            </div>
+            <div class="mt-2 text-xs md:text-sm uppercase tracking-widest text-main">
+              Categories
+            </div>
+          </div>
+
+        </div>
       </div>
-      <div class="mt-2 text-sm uppercase tracking-widest text-main">
-        Categories
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
     </header>
 
     <!-- Main Content -->
-
-
+    <div class="flex justify-center my-10">
+      <button type="button" class=" text-main border border-main font-content
+      hover:bg-gradient-to-r hover:from-secondary hover:via-primary hover:to-secondary
+      shadow-lg shadow-amber-500/50 dark:shadow-lg dark:shadow-amber-800/80 rounded-lg text-2xl 
+      px-5 py-4 text-center leading-5">
+        올해 시상식 보러가기
+      </button>
+    </div>
   
 
   </main>
 
   <!-- Footer -->
-  <footer class="text-xs bg-surface footer-horizontal footer-center text-primary-content font-content px-10 py-5 bg-dark z-50">
+  <footer class="text-xs footer-horizontal footer-center text-primary-content font-footer px-10 py-5 z-50 border-t border-main/30 mx-3 ">
   <aside>
-    <img src="/src/logo.png" alt="Logo" class="w-12 h-12 inline-block" />
+    <img src="./src/logo.png" alt="Logo" class="w-12 h-12 inline-block" />
     <p class="font-bold">
       Golden Potato Awards.
     </p>
