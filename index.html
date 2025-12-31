@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="luxury">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2025 나의 시상식</title>
+
+    <!-- Tailwind + DaisyUI -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        plugins: [daisyui],
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.js"></script>
+
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body class="min-h-screen bg-base-200">
+
+    <!-- 🏆 HERO -->
+    <section class="hero min-h-screen bg-base-100">
+      <div class="hero-content text-center">
+        <div class="max-w-md animate__animated animate__fadeInDown">
+          <h1 class="text-5xl font-bold">🏆 2025 나의 시상식</h1>
+          <p class="py-6 opacity-80">
+            올해의 나를 만든 모든 순간들
+          </p>
+          <a href="#awards" class="btn btn-primary btn-wide">
+            수상작 보러가기
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🏅 AWARDS -->
+    <section id="awards" class="py-20 px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">
+        🎉 수상 부문
+      </h2>
+
+      <div class="grid gap-8 max-w-5xl mx-auto md:grid-cols-2 lg:grid-cols-3">
+
+        <!-- 카드 1 -->
+        <div class="card bg-base-100 shadow-xl transition hover:scale-105 hover:shadow-2xl animate__animated animate__fadeInUp">
+          <div class="card-body">
+            <h3 class="card-title">🎮 올해의 게임</h3>
+            <p class="text-xl font-semibold">발더스 게이트 3</p>
+            <p class="text-sm opacity-70">
+              잠을 갈아서 플레이함
+            </p>
+          </div>
+        </div>
+
+        <!-- 카드 2 -->
+        <div class="card bg-base-100 shadow-xl transition hover:scale-105 hover:shadow-2xl animate__animated animate__fadeInUp animate__delay-1s">
+          <div class="card-body">
+            <h3 class="card-title">🎵 올해의 노래</h3>
+            <p class="text-xl font-semibold">반복 재생한 그 노래</p>
+            <p class="text-sm opacity-70">
+              하루에 최소 5번은 들음
+            </p>
+          </div>
+        </div>
+
+        <!-- 카드 3 -->
+        <div class="card bg-base-100 shadow-xl transition hover:scale-105 hover:shadow-2xl animate__animated animate__fadeInUp animate__delay-2s">
+          <div class="card-body">
+            <h3 class="card-title">😂 올해의 실수</h3>
+            <p class="text-xl font-semibold">알람 끄고 다시 잠</p>
+            <p class="text-sm opacity-70">
+              출근 직전까지 숙면
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 🌟 GRAND PRIZE -->
+    <section class="py-20 bg-base-300">
+      <div class="max-w-xl mx-auto text-center animate__animated animate__fadeIn">
+        <h2 class="text-4xl font-bold mb-4">🌟 올해의 대상</h2>
+        <p class="text-2xl font-semibold mb-2">
+          그래도 버틴 나 자신
+        </p>
+        <p class="opacity-70">
+          많은 일이 있었지만 여기까지 왔다
+        </p>
+      </div>
+    </section>
+
+    <!-- 👣 FOOTER -->
+    <footer class="footer footer-center p-10 bg-base-100 text-base-content">
+      <aside>
+        <p>Made by 감자 오븐</p>
+        <a
+          href="https://github.com/"
+          target="_blank"
+          class="link link-primary"
+        >
+          GitHub
+        </a>
+      </aside>
+    </footer>
+
+  </body>
+</html>
